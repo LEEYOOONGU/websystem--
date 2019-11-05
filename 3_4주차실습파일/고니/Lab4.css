@@ -1,0 +1,168 @@
+
+* {
+    text-align: center;
+    max-width: 1024px;
+
+}
+#uploadtext{
+    background-color:plum;
+}
+#deleteall{
+    background-color:skyblue;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    font-size: x-large;
+
+}
+
+main {
+    width: 100%;
+    background-color: orange;
+    height: 120px;
+}
+
+[type="file"] {
+    background-color:skyblue;
+}
+
+section {
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color:greenyellow;
+    overflow: scroll;
+}
+#txt{
+    float: left;
+    width: 100%;
+    background-color: gray;
+}
+aside {
+    float: right;
+    width: 50%;
+    height: 200px;
+    margin-right: auto;
+    padding-right: auto;
+}
+#aside_article1{
+    float: right;
+    display: inline-block;
+    color:white;
+    width: 50%;
+    height: 100%;
+    margin-right: auto;
+    padding-right: auto;
+    background-color: black;
+
+
+}
+
+#aside_article2 {
+    color: white;
+    float: right;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    margin-right: auto;
+    padding-right: auto;
+    background-color: firebrick;
+
+}
+
+footer {
+    color: white;
+    float: bottom;
+    background-color: gray;
+    width: 100%;
+    height: 120px;
+    clear: both;
+    position: relative;
+}
+
+
+@media (max-width: 768px) {
+    * {
+        text-align: center;
+    }
+
+    header {
+        width: 100%;
+        height: 160px;
+        background-color: red;
+    }
+
+    main {
+        width: 100%;
+        background-color: orange;
+        height: 80px;
+    }
+
+    section {
+        float: left;
+        width: 100%;
+        height: 160px;
+        background-color:greenyellow;
+        overflow:scroll;
+    }
+    #uploadfile{
+        background-color:aqua;
+    }
+    #uploadtext{
+        background-color:plum;
+    }
+    #deleteall{
+        background-color:skyblue;
+    }
+    [type="file"] {
+        background-color:skyblue;
+    }
+
+    aside {
+        float: right;
+        width: 100%;
+        height: 160px;
+        margin-right: auto;
+        padding-right: auto;
+    }
+
+    #aside_article1 {
+        float: right;
+        display: inline-block;
+        color :white;
+        width: 100%;
+        height: 50%;
+        margin-right: auto;
+        padding-right: auto;
+        background-color: black;
+
+    }
+    #txt{
+        width: 100%;
+        background-color: gray;
+    }
+
+    #aside_article2 {
+        color: white;
+        float: right;
+        width: 100%;
+        height: 50%;
+        margin-right: auto;
+        padding-right: auto;
+
+        background-color: firebrick;
+    }
+
+    footer {
+        color: white;
+        float: bottom;
+        background-color: gray;
+        width: 100%;
+        height: 80px;
+        clear: both;
+        position: relative;
+    }
+}

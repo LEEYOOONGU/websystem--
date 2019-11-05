@@ -1,0 +1,24 @@
+doctype html
+- var title = data.radio;
+- var src= data.photo;
+- var src2 = "/images/star.svg";
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style2.css')
+    body
+    p.picture
+        img(src = src height ="600" width= "165")
+    h1 #{data.title}
+    hr
+    P
+        h2 #{data.actor}
+        p #{data.genre}
+
+    hr
+    p.block
+        -for(var i =0;i<title;i++)
+           img(src = src2 height ="30" width= "30")
+    div.form
+        form(action = "/")
+            input(type = "submit" name = "submit" id = "submit" value = "go home")
